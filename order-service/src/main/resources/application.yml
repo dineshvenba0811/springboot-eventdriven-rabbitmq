@@ -1,0 +1,10 @@
+order-service:
+  queue:
+    name: order
+    exchange: orderexchange
+    routing-key: myOrderRoutingKey
+
+email-service:
+  queue:
+    name: email
+    routing-key: myEmailRoutingKey
